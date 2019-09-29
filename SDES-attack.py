@@ -86,5 +86,5 @@ for i in range (1024):
         if j <= 8 and plain == str('{0:08b}'.format(Check_list[j])):
             count_check += 1
    
-    if count_check >= 3:
+    if count_check >= 9:
         break
